@@ -1,0 +1,65 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{minutes}
+
+
+\minutesstyle{
+columns = {1},
+header =  {list}, %or {table},
+vote = {list}, %or {table},
+contents = {true}, %or {false}
+}
+
+\title{Collection of minutes}
+\author{\LaTeXe}
+
+\begin{document}
+
+\begin{Minutes}{babyMIND software meeting}
+%%\subtitle{}
+%%\moderation{}
+\minutetaker{Sven-Patrik Hallsj\"o}
+
+\participant{Saba Parsa, Ryan Bayes, Etam Messomo}
+%\missing[with excuse]{no excuse}
+%%\missingExcused{}
+%%\missingNoExcuse{}
+%\guest{}
+\minutesdate{May 13, 2016}
+%%\starttime{}
+%%\endtime{}
+\location{Skype}
+%%\cc{}
+\maketitle
+
+\topic{Merging software}
+Ryan Bayes asks, what conditions do we need to migrate to GitLab.
+Sven-Patrik Hallsj\"o adds that we want to finalize some things.
+Migrate it until Thursday (night) next week 19/5-16.
+
+An open question, when will INR they upload code?
+
+\topic{DAQ software}
+Ryan Bayes adds that we want to integrate the DAQ with SaRoMaN.
+What are we expecting for the beam tests?
+From Wednesday meeting, want event display from the testbeams.
+Same beam as the one MIND will be on. Would be handy, software side, to be able to provide a characteristic of the beam, depends on how many planes we have. PID using MICE EMR algorithms, will help for/with the MIND reconstruction. 
+
+Etam Messomo, framework for the DAQ exists, can look at it. Firmware only gives hit amplitude as of now. 
+
+Data protocoll has been presented previously.
+16/3 Indeco.
+\url{https://indico.cern.ch/event/493123/contributions/1171582/attachments/1244256/1831611/BabyMind_YF_Cern_16-03-2016.pdf}
+and there are  scripts.
+
+\topic{Current progress}
+Saba Parsa, not working with simulations. Working at CERN.
+Ryan Bayes, MICE took priortity 
+Sven-Patrik Hallsj\"o, fixed fitted nodes, reconstructed momentum is lower than expected.
+
+\topic{Next meeting}
+Friday the 20/5-16 at 10 am BST via Skype.
+
+\end{Minutes}
+
+\end{document}

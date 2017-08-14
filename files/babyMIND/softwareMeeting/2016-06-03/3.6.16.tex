@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{minutes}
+
+
+\minutesstyle{
+columns = {1},
+header =  {list}, %or {table},
+vote = {list}, %or {table},
+contents = {true}, %or {false}
+}
+
+\title{Collection of minutes}
+\author{\LaTeXe}
+
+\begin{document}
+
+\begin{Minutes}{babyMIND software meeting}
+%%\subtitle{}
+%%\moderation{}
+\minutetaker{Sven-Patrik Hallsj\"o}
+
+\participant{Saba Parsa, Ryan Bayes, Etam Messomo, Tatiana Ovsiannikova}
+%Alexander Izmaylov
+%\missing[with excuse]{no excuse}
+%%\missingExcused{}
+%%\missingNoExcuse{}
+%\guest{}
+\minutesdate{June 3, 2016}
+%%\starttime{}
+%%\endtime{}
+\location{Skype}
+%%\cc{}
+\maketitle
+
+\topic{DAQ}
+- DAQ
+Ryan Bayes asked: "What is the format of calibration data?" Glasgow suggests using an XML file or text file.
+Etam Messomo replied, xml for front end board, atleast for the configuration.
+
+Etam Messomo adds some construction data:
+\begin{itemize}
+\item Pitch 10.25mm for bars
+\item No gaps between modules.
+\item Width 16mm
+\item 2 bars 15mm and aluminium.
+\item Limited on cable lengths, can not predetermine position of cables on the front-end board. 
+\item Module 96 cm x 96 cm.
+\end{itemize}
+
+\topic{Test beam simulations}
+Sven-Patrik Hallsj\"o mentioned that simulation works, only issue now is clustering algorithms. We need to implement plane number for hit from a map containing barnumber, position and plane.
+
+Saba Parsa replies that she will provide proper maps.
+
+\topic{Next meeting}
+Friday the 10/6-16 at 10 am BST via Skype.
+
+\end{Minutes}
+
+\end{document}

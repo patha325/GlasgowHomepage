@@ -1,0 +1,60 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{minutes}
+
+
+\minutesstyle{
+columns = {1},
+header =  {list}, %or {table},
+vote = {list}, %or {table},
+contents = {true}, %or {false}
+}
+
+\title{Collection of minutes}
+\author{\LaTeXe}
+
+\begin{document}
+
+\begin{Minutes}{babyMIND software meeting}
+%%\subtitle{}
+%%\moderation{}
+\minutetaker{Sven-Patrik Hallsj\"o}
+\participant{Ryan Bayes, Etam Messomo, Saba Parsa.}
+%\missing[with excuse]{no excuse}
+%%\missingExcused{}
+%%\missingNoExcuse{}
+%\guest{}
+\minutesdate{February 12, 2016}
+%%\starttime{}
+%%\endtime{}
+\location{Skype}
+%%\cc{}
+\maketitle
+
+\topic{Discuss the release, limitations and status}%<-- insert title of topic
+Sven-Patrik Hallsj\"o informed that the Glasgow University software will make a release today. It still have the reconstruction issue between $\mu^+$ and $\mu^-$, also a limit that tracks that pass through the detector can not be reconstructed. 
+
+\topic{Progress of framework for multiple developers}
+Sven-Patrik Hallsj\"o informed that Glasgow University is working on creating a framework preliminarily using Jenkins and redmine to simplify development using multiple developers. 
+
+At the moment the code can be downloaded publicly from github. A discussion arose that the code should always be available for the whole collaboration.
+
+\topic{Discuss this weeks update meeting}
+The main discussion point was the presentation given by Alexander Izmaylov at the Baby MIND update meeting on Wednesday the 10th of February 2016.
+Ryan Bayes and Sven-Patrik Hallsj\"o  discussed that from slide 3 of the given presentation the following things would be of interest.
+\begin{itemize}
+\item In the Glasgow software we are currently using a common GDML description for the geometry in the simulation and reconstruction. We think that this is a good way to proceed. The slides that were presented makes it look like the geometry in the INR software is independent of the geometry in the reconstruction.
+\item It would be good to take some parts from the code and incorporate it in to our code. This merge needs to be discussed with INR.
+\item Data handling is not incorporated in the Glasgow software. Do we want a MIDAS based system for the test beam? Needs to be discussed with the collaboration.
+\item A merge would be good as to not duplicate effort. We have implemented a Python wrapper and the use of a GDML geometry which simplifies making geometry changes and simplifies usage. Suggestion that Glasgow can handle the merge.
+\end{itemize}
+
+Etam Messomo made the suggestion that Glasgow should handle the setup of all the software for babyMIND since they already have a public Github.  
+\task{Alexander Izmaylov}{How can people not in T2K access your software?}
+
+\topic{Next meeting}
+Friday the 19/2-16 at 10 am GMT via Skype.
+
+\end{Minutes}
+
+\end{document}

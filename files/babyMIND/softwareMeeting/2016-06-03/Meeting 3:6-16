@@ -1,0 +1,31 @@
+Meeting 3/6-16
+
+Attending
+Ryan
+Etam
+Tatiana
+Saba
+
+- DAQ
+Ryan, how have calibration data?
+XML or text file.
+text file easier to parse, however
+Etam, xml for frontend board. Configuration, not data.
+
+Patrik mentioned simulation works, only issue now is clustering algorithms. Need to implement knowing plane number for hit.
+
+Etam,
+Pitch 10.25mm for bars
+No gaps between modules.
+Width 16mm
+2 bars 15mm and aluminium.
+
+Nice mechanics, and electronics.
+
+Limited on cable lengths, can not predetermine position of cables on the front-end board. 
+Module 96 cm x 96 cm.
+
+Saba will provide proper maps.
+
+- Test beam simulations
+

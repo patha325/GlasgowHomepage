@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{minutes}
+
+
+\minutesstyle{
+columns = {1},
+header =  {list}, %or {table},
+vote = {list}, %or {table},
+contents = {true}, %or {false}
+}
+
+\title{Collection of minutes}
+\author{\LaTeXe}
+
+\begin{document}
+
+\begin{Minutes}{babyMIND software meeting}
+%%\subtitle{}
+%%\moderation{}
+\minutetaker{Sven-Patrik Hallsj\"o}
+
+\participant{Saba Parsa, Ryan Bayes, Etam Messomo}
+%Alexander Izmaylov Tatiana Ovsiannikova
+%\missing[with excuse]{no excuse}
+%%\missingExcused{}
+%%\missingNoExcuse{}
+%\guest{}
+\minutesdate{June 10, 2016}
+%%\starttime{}
+%%\endtime{}
+\location{Skype}
+%%\cc{}
+\maketitle
+
+\topic{DAQ}
+Sven-Patrik Hallsj\"o notes that we do not currently understand the data format. It seems to be corrupted. Can someone check this?
+
+Etam Messomo adds, something is strange. I will check the hex code and the frond-end board to see where the fault is. It could be corrupted by sending or reading incorrectly.
+
+\topic{Current status}
+Sven-Patrik Hallsj\"o adds, a lot is in place, we just need to understand data.
+
+\topic{News}
+Glasgow is now officially an institude in babyMIND
+
+\topic{Next meeting}
+Friday the 8/7-16 at 10 am BST via Skype.
+
+\end{Minutes}
+
+\end{document}

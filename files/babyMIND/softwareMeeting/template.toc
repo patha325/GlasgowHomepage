@@ -1,0 +1,16 @@
+\select@language {english}
+\contentsline {part}{Title of the english minutes}{1}
+\contentsline {xpart}{Title of the english minutes}{1}
+\contentsline {section}{\numberline {1}Topic one}{1}
+\contentsline {subsection}{\numberline {1.1}Sub Topic to Topic one}{1}
+\contentsline {section}{\numberline {2}Dates}{1}
+\contentsline {section}{\numberline {3}Tasks}{2}
+\contentsline {subsection}{\numberline {3.1}After secret topic}{2}
+\contentsline {section}{\numberline {(I)}Additional Topic}{2}
+\contentsline {subsection}{\numberline {(I).1}subtopic}{2}
+\contentsline {section}{\numberline {4}Attachments}{2}
+\contentsline {section}{\numberline {5}Decisions and votes}{2}
+\contentsline {subsection}{\numberline {5.1}Opinions and Argumentations}{2}
+\contentsline {subsection}{\numberline {5.2}A single vote}{3}
+\contentsline {subsection}{\numberline {5.3}A couple of votes}{3}
+\contentsline {subsection}{\numberline {5.4}Decisions}{3}

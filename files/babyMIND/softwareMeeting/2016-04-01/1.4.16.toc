@@ -1,0 +1,9 @@
+\select@language {english}
+\contentsline {part}{babyMIND software meeting}{1}
+\contentsline {xpart}{babyMIND software meeting}{1}
+\contentsline {section}{\numberline {1}Cern approval of babyMIND}{1}
+\contentsline {section}{\numberline {2}Software emulation of hardware }{1}
+\contentsline {section}{\numberline {3}Progress of framework for multiple developers}{2}
+\contentsline {section}{\numberline {4}Current progress}{2}
+\contentsline {section}{\numberline {5}Lifetime of mu-}{2}
+\contentsline {section}{\numberline {6}Next meeting}{2}

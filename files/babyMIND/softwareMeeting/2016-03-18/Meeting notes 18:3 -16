@@ -1,0 +1,23 @@
+Meeting notes 18/3 -16
+
+- Discuss the use of timing to differentiate between on-time and off-time hits.
+Etam updates, Sascha does a 100 ns cut during the reconstruction.
+
+Photon comming from muon capturing.
+Patrik has cut for 100 ns and 0.1 MeV.
+Limit in bar, not known but we should be able to detect  0.1 MeV 
+
+Cut in digitization,
+Now removing data, should save it.
+
+- Current progress.
+Saba, are we averaging the position of hits in the bar? x,y,z. We just want to do z.
+
+Patrik, systematic removing hits improves reconstruction and charge ID, problem with what is given to RecPack.
+
+- Progress of framework for multiple developers
+Patrik, No update yet.
+
+- Extra
+CERN collaboration meeting, all comming, hopefully someone from IFIC?
+Do we want to have a sesion of the simulation, our software, hands on?

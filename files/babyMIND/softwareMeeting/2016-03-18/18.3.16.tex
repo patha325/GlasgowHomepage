@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{minutes}
+
+
+\minutesstyle{
+columns = {1},
+header =  {list}, %or {table},
+vote = {list}, %or {table},
+contents = {true}, %or {false}
+}
+
+\title{Collection of minutes}
+\author{\LaTeXe}
+
+\begin{document}
+
+\begin{Minutes}{babyMIND software meeting}
+%%\subtitle{}
+%%\moderation{}
+\minutetaker{Sven-Patrik Hallsj\"o}
+\participant{Etam Messomo, Saba Parsa, Tatiana Ovsiannikova. }
+%\missing[with excuse]{no excuse}
+%%\missingExcused{}
+%%\missingNoExcuse{}
+%\guest{}
+\minutesdate{March 18, 2016}
+%%\starttime{}
+%%\endtime{}
+\location{Skype}
+%%\cc{}
+\maketitle
+
+\topic{Discuss the use of timing to differentiate between on-time and off-time hits}%<-- insert title of topic
+Etam Messomo updates, Sascha does a 100 ns cut during the reconstruction.
+
+Sven-Patrik Hallsj\"o informs that the Saroman package now has a cut for 100 ns and 0.1 MeV which resolves the problem of excess photons and showers from decays and muon capture. This cut is done in the digitization, and the removed hits should be saved
+
+Etam Messomo adds, there is a limit in scintillating bar, not known but we should be able to detect  0.1 MeV.
+
+\topic{Current progress}
+Saba Parsa asks, are we averaging the position of hits in the bar? Seems to be an average for x, y and z.
+
+Sven-Patrik Hallsj\"o, will investigate. We should be averaging but this should still show us multiple hits per each z.
+
+Sven-Patrik Hallsj\"o informs, systematic removing hits improves reconstruction and charge ID, problem seems to be with what is given to RecPack.
+
+\topic{Progress of framework for multiple developers}
+Sven-Patrik Hallsj\"o informed that Glasgow University is working on creating a framework preliminarily using Jenkins and redmine to simplify development using multiple developers. 
+
+\topic{Collaboration meeting}
+Etam Messomo hopes that we are all coming, hopefully someone from IFIC?
+
+Etam Messomo asks, do we want to have a sesion of the simulation, our software, hands on?
+
+Sven-Patrik Hallsj\"o adds, would like to show it, need to discuss with Ryan.
+
+\topic{Next meeting}
+Friday the 1/4-16 at 10 am GMT via Skype.
+
+\end{Minutes}
+
+\end{document}

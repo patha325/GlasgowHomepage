@@ -1,0 +1,10 @@
+\select@language {english}
+\contentsline {part}{babyMIND software meeting}{1}
+\contentsline {xpart}{babyMIND software meeting}{1}
+\contentsline {section}{\numberline {1}Discuss the digitisation and electronics}{1}
+\contentsline {section}{\numberline {2}Discuss the use of timing to differentiate between on-time and off-time hits}{1}
+\contentsline {section}{\numberline {3}Discuss different physics packages}{2}
+\contentsline {section}{\numberline {4}Progress of framework for multiple developers}{2}
+\contentsline {section}{\numberline {5}Current progress}{2}
+\contentsline {section}{\numberline {6}Merging software}{2}
+\contentsline {section}{\numberline {7}Next meeting}{2}

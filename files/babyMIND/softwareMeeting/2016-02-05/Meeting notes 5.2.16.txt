@@ -1,0 +1,24 @@
+Meeting notes 5/2-16:
+- Choosing a suitable meeting time for future meetings
+
+Meeting time Friday 10-11 GMT
+
+- Current limitations in the software
+
+Patrik discussed where the software package is currently and what limitations exist. These are formulated in a short introduction to the code and a ToDo list.
+
+- Discussion: How to handle multiple developers on the code.
+
+As of now 2 lists will be distributed, one with a short introduction to the code and one with a ToDo list of what is needed to be done with the code untill a first release.
+
+At a later stage a list of what simulations are needed will be distributed. 
+
+It was agreed to setup a framwork where tasks can be easily handed out so that there is an overview of the code and its status.
+
+
+- Other
+INR will present software status next main meeting. Will have to open a channel for discussion with them.
+
+Next meeting on Friday the 12/2-16 at 10 am GMT.
+
+

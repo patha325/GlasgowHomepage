@@ -1,0 +1,56 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{minutes}
+
+
+\minutesstyle{
+columns = {1},
+header =  {list}, %or {table},
+vote = {list}, %or {table},
+contents = {true}, %or {false}
+}
+
+\title{Collection of minutes}
+\author{\LaTeXe}
+
+\begin{document}
+
+\begin{Minutes}{babyMIND software meeting}
+%%\subtitle{}
+%%\moderation{}
+\minutetaker{Sven-Patrik Hallsj\"o}
+\participant{Ryan Bayes, Etam Messomo, Saba Parsa.}
+%\missing[with excuse]{no excuse}
+%%\missingExcused{}
+%%\missingNoExcuse{}
+%\guest{}
+\minutesdate{February 5, 2016}
+%%\starttime{}
+%%\endtime{}
+\location{Skype}
+%%\cc{}
+\maketitle
+
+\topic{Choosing a suitable meeting time for future meetings}%<-- insert title of topic
+The meeting agreed on a meeting time for future meetings: Fridays 10-11 GMT.
+
+\topic{Current limitations in the software}
+Patrik discussed where the software package is currently and what limitations exist. These are formulated in a short introduction to the code and a ToDo list.
+
+\topic{How to handle multiple developers on the code}
+As of now two lists will be distributed, one with a short introduction to the code and one with a ToDo list of what is needed to be done with the code until a first release. These lists will be distributed to the developers. At a later stage a list of what simulations are needed will be distributed. 
+
+It was agreed to setup a framwork where tasks can be easily handed out so that there is an overview of the code and its status.
+
+\task{Sven-Patrik Hallsj\"o}{Create this frame work at Glasgow University.}
+
+\topic{Other topics}
+
+INR will present software status next main meeting. Will have to open a channel for discussion with them.
+
+\topic{Next meeting}
+Friday the 12/2-16 at 10 am GMT.
+
+\end{Minutes}
+
+\end{document}

@@ -1,0 +1,34 @@
+Meeting 22/4-16
+
+Attending
+Ryan
+Saba
+
+
+- Geant visualizer
+Ryan gave a tutorial on how to use it.
+vis.mac file (is on git) needs to be in working directory to be used.
+File is well commented, everything in vis.mac can also be run in the command line.
+Use beamOn x, where x is the number of events you wish to see.
+after which use /vis/reviewKeptEvents to add them to the visualizer again.
+with /vis/scene/add/trajectories vill add plot first event,
+after with plot cont to plot out the next event.
+
+ryan will put his vis.mac and related code on github.
+
+vis.mac is under /sciNDG4
+
+- Merging software
+Next meeting since the discussion requires Alexander
+
+Ryan:
+Would be nice to incorporate digitization, DAQ (not sure for the test beam)
+Need to tell showers from tracks,
+need to handle multiple hits per plane before June beam test.
+
+- Framework for multiple developers
+http://lspace.ppe.gla.ac.uk/
+Patrik discusses the gitlab that exists, how to create accounts and what is there.
+
+Will be used in the future.
+

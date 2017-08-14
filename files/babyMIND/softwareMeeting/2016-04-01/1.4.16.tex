@@ -1,0 +1,83 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{minutes}
+
+
+\minutesstyle{
+columns = {1},
+header =  {list}, %or {table},
+vote = {list}, %or {table},
+contents = {true}, %or {false}
+}
+
+\title{Collection of minutes}
+\author{\LaTeXe}
+
+\begin{document}
+
+\begin{Minutes}{babyMIND software meeting}
+%%\subtitle{}
+%%\moderation{}
+\minutetaker{Sven-Patrik Hallsj\"o}
+\participant{Etam Messomo, Alexander Izmaylov, Tatiana Ovsiannikova. }
+%\missing[with excuse]{no excuse}
+%%\missingExcused{}
+%%\missingNoExcuse{}
+%\guest{}
+\minutesdate{April 1, 2016}
+%%\starttime{}
+%%\endtime{}
+\location{Skype}
+%%\cc{}
+\maketitle
+
+\topic{Cern approval of babyMIND}
+Etam Messomo updates that they are hunting for the last signatures for the MOU.
+
+\topic{Software emulation of hardware }
+Current electronics response simulation
+
+Tatiana Ovsiannikova will discuss with Alexander Izmaylov to produce more information of how they are doing this.
+
+Etam Messomo discussing a paper on general modelling of plastic scentilators which can be modified for our use.
+doi:10.1016/j.nima.2010.03.110
+
+This paper is discussed with a quick read through.
+
+Tatiana Ovsiannikova sent out a thesis regarding the MPPC and how it is handled in software.
+Alexander mention that there is a presentation discussing the model used for ND280.
+
+Software handles from simulated hit, how many photons should be expected at the end of each MPPC, both in time and number. 
+
+Etam Messomo mention that there will be a difference in how this has to be handled for the different bars. (Double ended vs single ended.)
+
+For Wednesday, Tatiana Ovsiannikova or Alexander Izmaylov will update with more details of how this is done and improvements done since the mentioned presentation.
+
+More measurements from hardware is needed to get better noise simulations in the software. 
+
+\topic{Progress of framework for multiple developers}
+Sven-Patrik Hallsj\"o, No update yet, a bit annoyed over this. Hopefully it will be fixed next week. Alexander Izmaylov hopefully have code public by next week. Not sure what dependencies are needed, exists for CMT.
+
+\topic{Current progress}
+
+Sven-Patrik Hallsj\"o gave an update about the problem found in the digitization with averaging multiple hits into one hit. This means that the reconstruction has been done to simply. All pieces exist in the reconstruction to handle multiple hits, so this should be easy to fix, and hopefully done by next week.
+
+\topic{Lifetime of mu-}
+
+Etam Messomo informs: Here's one for today of all days: The Baby MIND collaboration confirms that the mu-minus lifetime in iron is 200 ns, and not the reported 2197 ns widely believed to be the muon lifetime for both mu+ and mu-, 
+
+This general lifetime can be see as an average of the general lifetime, capturing and also decay.
+
+DOI:http://dx.doi.org/10.1103/PhysRevC.35.2212
+
+Can we use different configurations of the detector for this? Stack of plastic after layers of steel.
+Could be killed by our charge ID is very good.
+
+Would be good to show event displays. (Where does the event stop in the steel?) Clusters in steel from the stopping.
+
+\topic{Next meeting}
+Friday the 8/4-16 at 10 am BST via Skype.
+
+\end{Minutes}
+
+\end{document}

@@ -1,0 +1,101 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{minutes}
+
+
+\minutesstyle{
+columns = {1},
+header =  {list}, %or {table},
+vote = {list}, %or {table},
+contents = {true}, %or {false}
+}
+
+\title{Collection of minutes}
+\author{\LaTeXe}
+
+\begin{document}
+
+\begin{Minutes}{babyMIND software meeting}
+%%\subtitle{}
+%%\moderation{}
+\minutetaker{Sven-Patrik Hallsj\"o}
+
+\participant{Etam Messomo, Saba Parsa, Ryan Bayes, Alexander Izmaylov, Tatiana Ovsiannikova. }
+%\missing[with excuse]{no excuse}
+%%\missingExcused{}
+%%\missingNoExcuse{}
+%\guest{}
+\minutesdate{April 8, 2016}
+%%\starttime{}
+%%\endtime{}
+\location{Skype}
+%%\cc{}
+\maketitle
+
+\topic{Breaking news}
+Etam Messomo, went to hall for prototype magnet and found that the whole magnet CERN team were incredibly busy, switching on magnet for the first time. The prototype is hooked up to power, powered on and looking pretty good. 
+Stray fields measured, field not measurable where the electronics will go.
+
+From a safety aspect there is low voltage, it can be touchable without any hazardous effects.
+
+\topic{Collaboration meeting}
+Etam Messomo updates, Saba Parsa will organize a computer so that a demo of the software can be shown, can be connected to Glasgow
+
+On the 19th of April at 10am, SPSC talk, all will go Etam Messomo will present.
+
+\task{All}{Can everyone prepare atleast five slides of progress of the software, summary of current status and current plans.}
+
+Aim for Wednesday presentation. Slides must be submitted a few days before to everyone and the committee a day before.
+
+\topic{Current progress}
+\subtopic{Glasgow}
+Sven-Patrik Hallsj\"o, corrected multiple hits per module, and plotting visual hits and trajectories from root.
+Saba Parsa asking, is the visually not in open GL? Is it using info from geant?
+Ryan Bayes added, most of the software already exists. It is possible to look at raw geant data through visualizer, but should in parallel look at trajectories. If geant visualized is needed, it already exists.
+
+Saba Parsa suggests that at the meeting there should be a session about using geant visualizer, how to fully look at events. 
+
+Ryan Bayes asks if we should set up a color convention? Need a standardized view of reconstruction.
+
+Etam Messomo adds, for event visualization, can we adopt a color blind friendly visualization? Problem when showing it to some people.
+\subtopic{IGR}
+Tatiana Ovsiannikova,we have studied hits from mu- and mu+ and looked at a time delayed hits study in Wagashi.
+Looked at decay time of clusters, time difference between end of tracks and hits of more than 100ns.
+Presented a report.
+
+Alexander Izmaylov adds, quick check to see if we can get additional separation in Wagashi using timing clusters between mu+ and mu-
+
+Sven-Patrik Hallsj\"o and Ryan Bayes ask, should we not look at energy of lower than 400Mev? These energies could be found in babyMind. Yes there is a specific beam energy, but these are lower when the beam enters babyMind.
+
+Etam Messomo adds hard to use this difference, point made on Wednesday, could argue to have more plastic to get more information for low momentum. If they stop in the plastic we will have better momentum resolution.
+
+Etam Messomo asks, what do we think? Could more active material help with this? It would provide more end of track information for low momentum.
+
+Alexander Izmaylov adds, we could estimate from likelihood models, what resolution is needed? 
+Etam Messomo, from this we can see if it is worth investigating.
+
+Etam Messomo, Slides, slide 2 how do you see the electrons? Percentage of what?
+
+Alexander Izmaylov, in \% of cases we see hits related to.
+Tatiana Ovsiannikova, looking at hit parent information.
+Saba Parsa, seen the same with neutrons, end of tracks would have many long neutron activity.
+
+Etam Messomo, are Muons mostly stopping in the Iron?
+Alexander Izmaylov, Yes.
+Etam Messomo, If I get it right now, slide 2, 25\% of hits will give positron events?
+Alexander Izmaylov, yes at least one hit.
+Etam Messomo, from the positron information, can we not calculate roughly the endpoint for the muon?
+Alexander Izmaylov, yes, could possibly be done.
+
+\topic{Progress of framework for multiple developers}
+
+Sven-Patrik Hallsj\"o, update Glasgow very slow, must get a better update. How is it going for INR?
+Alexander Izmaylov, hopefully next week.
+
+
+\topic{Next meeting}
+Friday the 15/4-16 at 10 am BST via Skype.
+
+\end{Minutes}
+
+\end{document}

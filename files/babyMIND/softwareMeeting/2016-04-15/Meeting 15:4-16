@@ -1,0 +1,39 @@
+Meeting 15/4-16
+
+Attending
+Etam
+Saba
+Ryan
+Tatiana
+
+Schedule for next week
+Talks for each of the simulations
+Someone gives the framework talk and first results talk
+
+Yes, Tatiana will try to connect remotely.
+
+Saba, talk on the leaver arm,
+
+Expecting ca 10 people at any time, more perhaps connecting.
+
+Introducing a pickup coil,
+PLans existed, but density of the coil was assumed to be very dense, now, very clear caps where this can be done. 
+
+Now it is being done
+Advantage of design
+
+explicit flux change as we ramp magnet up and down.
+change in coil gives explicit amplitude of the magnetic field.
+See opera paper
+testing if delta b depends on b as well as delta i
+to be tested, may depend on b-h curve.
+order 1 min to ramp up and down, low current.
+
+press question to magnet guys can we do this for every plane? A subsett, motivation for field uniformety
+uniformety in planes, along z? could affect tracking.
+
+Compare electronic to e.g mice, weill have true analog signal from readout chip. 
+
+- Progress of framework for multiple developers
+Patrik, progress. Local gitlab. Not external yet.
+

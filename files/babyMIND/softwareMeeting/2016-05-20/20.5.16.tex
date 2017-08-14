@@ -1,0 +1,51 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{minutes}
+
+
+\minutesstyle{
+columns = {1},
+header =  {list}, %or {table},
+vote = {list}, %or {table},
+contents = {true}, %or {false}
+}
+
+\title{Collection of minutes}
+\author{\LaTeXe}
+
+\begin{document}
+
+\begin{Minutes}{babyMIND software meeting}
+%%\subtitle{}
+%%\moderation{}
+\minutetaker{Sven-Patrik Hallsj\"o}
+
+\participant{Saba Parsa, Ryan Bayes, Etam Messomo, Tatiana Ovsiannikova}
+%\missing[with excuse]{no excuse}
+%%\missingExcused{}
+%%\missingNoExcuse{}
+%\guest{}
+\minutesdate{May 20, 2016}
+%%\starttime{}
+%%\endtime{}
+\location{Skype}
+%%\cc{}
+\maketitle
+
+\topic{DAQ}
+Etam Messomo sent powerpoint, script and raw data.
+
+\topic{Beam test}
+Etam Messomo discusses, June and July, rushing for the one in June with the timing block for the front end board. 
+Trigger system needs to be tested before beam test. Time is outpacing us. 
+
+\topic{Upload code to gitlab}
+Alexander Izmaylov will upload it, Tatiana Ovsiannikova will ask.
+They are working with wagasci target reconstruction.
+
+\topic{Next meeting}
+Friday the 27/5-16 at 10 am BST via Skype.
+
+\end{Minutes}
+
+\end{document}

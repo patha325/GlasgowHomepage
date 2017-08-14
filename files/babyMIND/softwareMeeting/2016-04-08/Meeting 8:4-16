@@ -1,0 +1,84 @@
+Meeting 8/4-16
+
+Attending
+Etam
+Saba
+Ryan
+Tatiana
+Alexander (later)
+
+Agenda
+-Breaking news
+Etam, went to hall for prototype magnet, found that the whole magnet CERN team were incredibly busy, switching on magnet for the first time. Prototype hooked up to power, powered on and looking pretty good. 
+Stray fields measured, field not measurable, very low were electronics will go.
+
+Safety, low voltage, it can be touchable without any hazardous effects.
+
+- Collaboration meeting
+Etam updates, suggested by us, Saba will organize a computer if demo wants to be shown, can be connected to Glasgow
+
+on 19th 10am, SPSC talk, all will go Etam will talk.
+
+Assuming talks plural from Glasgow, Alexander and Tatiana and also from Saba.
+
+SPSC, Etam will talk, Patrik adds, does he need material?
+Yes, can you prepare atleast 5 slides of progress in Glasgow, plans etc. 
+Can Alexander and Tatiana do the same?
+Summary of current status and current plans.
+In latex
+Aim for Wednesday presentation. Slides must be submitted a few days before to everyone and the commitie a day before.
+
+
+- Current progress
+Patrik, multiple hits per module, and plotting visual hits and trajectories from root.
+Saba asking, not in open GL? using info from geant?
+Ryan, we have most of that yet, can look at raw geant data through visualizer, but should in parallel look at this similarly. If Saba needs geant data visualized that already exists.
+
+Saba At meeting, session about using geant visualizer, how to fully look at events. 
+
+Ryan asks if we should set up a color convention?
+Need standardized view of reconstruction.
+
+Etam, for event visualization, can we adopt a color blind friendly visualization? Problem when showing, some people.
+
+Tatiana, we have studied hits from mu- and mu+ checks, 
+Time delayed hits study in Wagashi.
+look at decay time of clusters, time difference between end of tracks and hits of more than 100ns.
+Presented a report.
+
+Alexander, 
+quick check if we can get additional separation in Wagashi using timing clusters between mu+ and mu-
+
+Patrik and Ryan ask, should we not look and energy of lower than 400Mev? These energies could be found in babyMind. Yes there is a beam energy, but these are lower when they come into babyMind.
+
+Etam, hard to use this difference, point made on Wednesday, could argue to have more plastic to get more information for low momentum. If they stop in the plastic we will have better momentum resolution.
+
+What do we think? Could more active material help with this?
+
+More end of track information for low momentum.
+
+Alexander, could estimate from likelihood models, what resolution is needed? 
+Etam, from this we can see if it is worth investigating.
+
+Etam, Slides, slide 2 how do you see the electrons?
+Percentage of what?
+
+Alexander, in % of cases we see hits related to.
+Tatiana, looking at hit parent information.
+Saba, seen the same with neutrons, end of tracks would have many long neutron activity.
+
+Patrik, use a time cut?
+Etam, Alexander, now looking at long time clusters, of course we use this, but here looking at long time after.
+
+Etam, are Muons mostly stopping in the Iron?
+Alexander, Yes.
+Etam, If I get it right now, slide2, 25% of hits will give positron events?
+Alexander, yes at least one hit.
+Etam, from the positron information, can we not calculate roughly the endpoint for the muon?
+Alexander, yes, could possibly be done.
+
+
+- Progress of framework for multiple developers
+Patrik, update Glasgow very slow, must get a better update. How is it going for INR?
+Alexander, hopefully next week.
+

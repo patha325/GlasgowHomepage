@@ -1,0 +1,86 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{minutes}
+
+
+\minutesstyle{
+columns = {1},
+header =  {list}, %or {table},
+vote = {list}, %or {table},
+contents = {true}, %or {false}
+}
+
+\title{Collection of minutes}
+\author{\LaTeXe}
+
+\begin{document}
+
+\begin{Minutes}{babyMIND software meeting}
+%%\subtitle{}
+%%\moderation{}
+\minutetaker{Sven-Patrik Hallsj\"o}
+
+\participant{Etam Messomo, Yannick Favre}
+%Alexander Izmaylov Tatiana Ovsiannikova Yannick Favre Saba Parsa Ryan Bayes
+%\missing[with excuse]{no excuse}
+%%\missingExcused{}
+%%\missingNoExcuse{}
+%\guest{}
+\minutesdate{July 8, 2016}
+%%\starttime{}
+%%\endtime{}
+\location{Vidyo}
+%%\cc{}
+\maketitle
+
+Prel. agenda
+- Analysis framework status
+- DAQ status
+- Analysis goals, what should be done before the next test beam?
+
+\topic{Analysis framework status}
+Sven-Patrik Hallsj\"o informs, SaRoMaN software integrations has started, can get data into the reconstructions with some minor bugs. Needs more time to complete.
+
+Current analyses seem to suggest that hits do not occur at the same time in the different FEB's. More analysis is needed.
+
+The current analysis code works, but to do several feb's becomes a quantitative analysis.
+Will upgrade the analysis code to tackle this as well.
+
+Etam Messomo adds, we need to document all of the bugs in the DAQ.
+We can use Trello or something similar. Perhaps something with comments in phase with the code version? Asana?
+
+Report bugs,
+\begin{itemize}
+\item Resolved by Yannick, hardware/firmware
+\item Resolved by Yordan, unpacking
+\item Resolved by Patrik. analysis.
+\end{itemize}
+Configuration database is needed, preferably for next beamtest.
+XML config file changes over time, need database, need Traceability.
+
+\topic{DAQ status}
+Sven-Patrik Hallsj\"o adds, using only Yordans unpacking, old revision used now because simpler to read corrupt files.
+Need to make a list of what is wrong in either DAQ files or in unpacking code.
+
+\topic{Analysis goals, what should be done before the next test beam?}
+Etam Messomo lists,
+\begin{itemize}
+\item Event display,
+\item Time histograms deltaT, want to associate time in next gtriggs aswell. Hit with amplitude.
+\item Looking at plots.
+\item Bug in timing in current firmware could give duplicate hit times, different times associated with amplitudes.
+\item Produce hit time cut, only one hit time per amplitude? Remove duplicate by using tag id. 
+\item Calculate estimated num hits for a channel given the num of spills, can check with what we get in histo.
+\item Fit, determine spread left and right. channel 8,24 same asic, bar, center of bar. Can fit data and get rough resolution from FEB.
+\item Does Resolution evolves as position in Gtrigg.
+\item Compare to other scenario, with scintillating triggers. Is there a difference? More complex, far worse inherent resolution. 
+\end{itemize}
+
+Sven-Patrik Hallsj\"o, will work on it right away.
+
+\topic{Next meeting}
+Friday the 15/7-16 at 10 am BST via Skype.
+
+\end{Minutes}
+
+\end{document}

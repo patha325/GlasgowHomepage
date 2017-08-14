@@ -1,0 +1,71 @@
+Meeting 8/7-16
+
+Attending
+Patrik
+Etam
+Yannick
+
+Prel. agenda
+- Analysis framework status
+- DAQ status
+- Analysis goals, what should be done before the next test beam?
+
+- Analysis framework status
+Patrik
+Saroman software
+What it is
+Time problem between feb?
+
+Analysis
+Can work, quantative, no matching between time of feb
+
+Etam
+Documentation, document buggs of daq.
+Yannick, can we use Trello for FEB.
+Report bugs,
+Resolved by Yannick, hardware/firmware
+Resolved by Yordan, unpacking
+Resolved by Patrik. analysis.
+
+TODO find environment for versioning code with commenting properties asana?
+Need a way to comment code, versions.
+
+Configuration database is needed, preferably for next beamtest.
+XML config file changes over time, need database. Tracability.
+
+- DAQ status
+Patrik
+Using only Yordans unpacking, old revision used now because simpler to read corrupt files.
+Need to make a list of what is wrong in eather daq files or in unpacking code.
+
+- Analysis goals, what should be done before the next test beam?
+Etam
+Event display,
+Time histograms deltaT, want to assosciate time in next gtriggs aswell. Hit with amplitude.
+
+Looking at plots.
+Bug in timing in current firmware could give douplicate hit times, different times associated with amplitudes.
+
+Produce hit time cut, only one hit time per amplitude? Remove douplicate.
+Use tag id. 
+
+Can calculate estimated num hits for a channel given the num of spills, can check with what we get in histo.
+
+After fix, what do we want with histograms.
+Fit, determine spread left and right. channel 8,24 same asic, bar, center of bar. Can fit data and get rough resolution from FEB.
+
+- Does Resolution evolves as position in Gtrigg.
+
+- Compare to other senario, with scientilating triggers. Is there a difference? More complex, far worse inherent resolution. 
+
+Now chnl 8,24 deltaT exp 0. Fit should be gaussian around 0.
+
+Doing same for 0,16 and 15,31 since at edges, shift from center 7,8 cm. If enough statistics, should see slight shift in gaussian fit.
+If not, inherent resolution of FEB or not enough statistics.
+
+Patrik, will work on it right away.
+
+
+
+
+

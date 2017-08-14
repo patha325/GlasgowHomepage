@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{minutes}
+
+
+\minutesstyle{
+columns = {1},
+header =  {list}, %or {table},
+vote = {list}, %or {table},
+contents = {true}, %or {false}
+}
+
+\title{Collection of minutes}
+\author{\LaTeXe}
+
+\begin{document}
+
+\begin{Minutes}{babyMIND software meeting}
+%%\subtitle{}
+%%\moderation{}
+\minutetaker{Sven-Patrik Hallsj\"o}
+
+\participant{Saba Parsa, Ryan Bayes, Etam Messomo, Alexander Izmaylov}
+%\missing[with excuse]{no excuse}
+%%\missingExcused{}
+%%\missingNoExcuse{}
+%\guest{}
+\minutesdate{May 27, 2016}
+%%\starttime{}
+%%\endtime{}
+\location{Skype}
+%%\cc{}
+\maketitle
+
+\topic{Clashing T2K meeting}
+Alexander Izmaylov informs us that there is a T2K collaboration meeting that clashes with this meeting.
+
+\topic{Current progress}
+Etam Messomo informs from Wednesday, trigger system and assembly zone almost complete.
+All modules for beam test moved to assembly zone. 
+Scintillating slabs, have been compared.
+Hardware, working to get out timing information and amplitude in the same data stream.
+
+Ryan Bayes informs of the work in Glasgow, Sven-Patrik Hallsj\"o has worked with reconstruction, cleaning up bugs, and improved the code and reconstruction efficiency significatly. This will be presented on our Wednesday meeting.
+Working now with testbeam digitization and reconstruction.
+
+\topic{T2K code}
+Alexander Izmaylov is talking to T2K and will hopefully be able to share the code soon.
+
+\topic{Next meeting}
+Friday the 3/6-16 at 10 am BST via Skype.
+
+\end{Minutes}
+
+\end{document}

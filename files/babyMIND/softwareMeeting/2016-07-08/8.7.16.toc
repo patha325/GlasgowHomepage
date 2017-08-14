@@ -1,0 +1,7 @@
+\select@language {english}
+\contentsline {part}{babyMIND software meeting}{1}
+\contentsline {xpart}{babyMIND software meeting}{1}
+\contentsline {section}{\numberline {1}Analysis framework status}{1}
+\contentsline {section}{\numberline {2}DAQ status}{2}
+\contentsline {section}{\numberline {3}Analysis goals, what should be done before the next test beam?}{2}
+\contentsline {section}{\numberline {4}Next meeting}{2}

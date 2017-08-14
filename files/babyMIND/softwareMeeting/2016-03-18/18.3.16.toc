@@ -1,0 +1,8 @@
+\select@language {english}
+\contentsline {part}{babyMIND software meeting}{1}
+\contentsline {xpart}{babyMIND software meeting}{1}
+\contentsline {section}{\numberline {1}Discuss the use of timing to differentiate between on-time and off-time hits}{1}
+\contentsline {section}{\numberline {2}Current progress}{1}
+\contentsline {section}{\numberline {3}Progress of framework for multiple developers}{2}
+\contentsline {section}{\numberline {4}Collaboration meeting}{2}
+\contentsline {section}{\numberline {5}Next meeting}{2}

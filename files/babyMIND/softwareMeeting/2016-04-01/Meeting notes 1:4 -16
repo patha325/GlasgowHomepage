@@ -1,0 +1,48 @@
+Meeting notes 1/4 -16
+
+People:
+Etam
+Tatiana
+Alexander Izmaylov
+
+- Cern approval of babyMIND.
+Hunting last signature for MOU.
+
+- Software emulation of hardware 
+Current electronics response simulation
+
+Tatiana will discuss with Yuri to produce more information of how they are doing this.
+
+Etam discussing a paper on general modeling of plastic sentilaotrs which can be modified for our use.
+doi:10.1016/j.nima.2010.03.110
+This paper is discussed with a quick read through.
+
+Tatiana sent out a thesis regarding the MPPC and how it is handled in software.
+Alexander mention that there is a presentation discussing the model used for ND280.
+
+Software handles from simulated hit, how many photons should be expected at the end of each MPPC, both in time and number. 
+Etam mention that there will be a difference in how this has to be handled for the differenet bars. (Double ended vs single ended.)
+
+For Wednesday, Tatiana or Alexander will update with more details of how this is done and improvements done since the mentionend presentation.
+
+Need measurements from the hardware to get better noise simulations in the software. 
+
+- Progress of framework for multiple developers
+Patrik, No update yet, abit anoyed. Hopefully it will be fixed next week. Alexander hopefully have code public by next week. Not sure what dependencies are needed, exists for CMT.
+
+- Current progress
+Patrik gave an update about the problem found in the digitization with averaging multiple hits into one hit. This means that the reconstruction has been done to simply. All pieces exist in the reconstruction to handle multiple hits, so this should be easy to fix, and hopefully done by next week.
+
+-Lifetime of mu-
+
+Here's one for today of all days: The Baby MIND collaboration confirms that the mu-minus lifetime in iron is 200 ns, and not the reported 2197 ns widely believed to be the muon lifetime for both mu+ and mu-, 
+
+From capturing and also decay.
+Measured at triump.
+DOI:http://dx.doi.org/10.1103/PhysRevC.35.2212
+
+Can we use different configurations of the detector for this? Stack of plastic after layers of steel.
+Could be killed by our charge ID is very good.
+
+Would be good to show event displays. (Where does the event stop in the steel?) Clusters in steel from the stopping.
+

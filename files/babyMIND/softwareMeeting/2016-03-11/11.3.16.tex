@@ -1,0 +1,71 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{minutes}
+
+
+\minutesstyle{
+columns = {1},
+header =  {list}, %or {table},
+vote = {list}, %or {table},
+contents = {true}, %or {false}
+}
+
+\title{Collection of minutes}
+\author{\LaTeXe}
+
+\begin{document}
+
+\begin{Minutes}{babyMIND software meeting}
+%%\subtitle{}
+%%\moderation{}
+\minutetaker{Sven-Patrik Hallsj\"o}
+\participant{Ryan Bayes, Etam Messomo, Saba Parsa, Tatiana Ovsiannikova. }
+%\missing[with excuse]{no excuse}
+%%\missingExcused{}
+%%\missingNoExcuse{}
+%\guest{}
+\minutesdate{March 11, 2016}
+%%\starttime{}
+%%\endtime{}
+\location{Skype}
+%%\cc{}
+\maketitle
+
+\topic{Discuss the digitisation and electronics}%<-- insert title of topic
+
+Sven-Patrik Hallsj\"o  mentioned that the saroman simulation now only uses one sppm, he saw that in one meeting note there was noted that 2 sppm are used. Is there a general document (being updated), that contains the current information about the detector? 
+
+Etam Messomo mentions that edms should be used for documents.
+
+Etam Messomo asks how muon and electron are distinguished in the digitization. 
+
+Ryan Bayes answers, not cheating to use the particle ID information from the simulation. Can also use the timing information. Just needs to be used in the digitization. Timing information to distinguish between muon and electron in the digitization. 
+
+\topic{Discuss the use of timing to differentiate between on-time and off-time hits}
+Etam Messomo refers to his email.
+
+Sven-Patrik Hallsj\"o mentioning that this should be possible to fix, this time is not yet used.
+
+\topic{Discuss different physics packages}
+Sven-Patrik Hallsj\"o asked, what should really be used?
+
+Etam Messomo replied, not much difference between packages, look at timing information first.
+
+Ryan Bayes added We know people that have worked on this before, would be good to ask/consult. 
+
+\topic{Progress of framework for multiple developers}
+Sven-Patrik Hallsj\"o informed that Glasgow University is working on creating a framework preliminarily using Jenkins and redmine to simplify development using multiple developers. 
+
+\topic{Current progress}
+Sven-Patrik Hallsj\"o informed that there is a problem with how recpack is used. Fitting is not working in the field mixing regions, and it seems that even when fitting only 2 hits are fitted. The seed is better than the final results since recpack is failing.
+
+\topic{Merging software}
+Tatiana Ovsiannikova said they are moving software to git, not sure when this will be done. 
+Etam Messomo added, Glasgow is setting up a private repository which will hold both codes.
+
+\topic{Next meeting}
+Friday the 18/3-16 at 10 am GMT via Skype.
+
+\end{Minutes}
+
+\end{document}

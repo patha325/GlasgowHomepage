@@ -1,0 +1,55 @@
+Meeting 13/5-16
+
+Attending
+Etam
+Saba
+Ryan
+
+Prel. agenda
+- Merging software
+Ryan, what conditions do we need to fullfill to migrate to gitLab?
+How should we handle this?
+Wait untill things are clear.
+Migrate it until Thursday (night) next week 19/5-16.
+
+Patrik Open question, when will INR they upload code?
+
+- DAQ software
+Ryan, integration DAQ with SaRoMaN. What are we expecting for the beam tests?
+From Wednessday meeting, want event display from the testbeams. 
+Saba, would be nice to visualize the data.
+Ryan, Same beam as the one MIND will be on. Would be handy, software side, to be able to provide a caracteristic of the beam, depends on how many planes we have. PID using MICE EMR algorithms, will help for/with the MIND reconstruction. 
+
+How many active planes for AIDA beam test, 
+
+Can do visualization for low amount of hits.
+
+Want to do low level pid.
+
+Patrik, who does DAQ? Etam.
+
+Etam, framework exists, can look at it. Firmware only gives hit amplitude as of now. 
+
+Do you want binary data? 
+Ryan, yes.
+Data protocoll has been presented previously.
+16/3 Indeco.
+https://indico.cern.ch/event/493123/contributions/1171582/attachments/1244256/1831611/BabyMind_YF_Cern_16-03-2016.pdf
+
+We have scripts in c and c#
+Send that and binary file.
+
+Ryan, how do configuration in the digitization. Database or textfile?
+
+Etam, add to ToDo list. Which one should we use?
+
+Consider using MICE database code.
+Ryan will create a proposal.
+
+
+- Current progress
+Saba, no working simulations. Working at CERN. Code working with multiple hits.
+Ryan, MICE took priortity 
+Patrik, fixed fittedNodes, reconstructed momentum is to low, constant however.
+
+

@@ -1,0 +1,33 @@
+Meeting notes 4/3 -16
+raw = after digitization, no event selection.
+look at Sabas values.
+
+- Discuss the current status of the software, continuing the discussion from the general meeting on Wednesday. 
+
+Decay in orbit explains the difference not explained by mu- capture
+Measure in data to compare with simulation.
+
+Can we in literature dig out mu- capture cross-sections?
+Double check.
+Decay in orbit, harder.
+
+Check different physics libraries.
+Also check fluka simulations. (with simpler geometry.)
+
+Would be good to compare fluka and geant, simpler geometry.
+
+Missing hits in the reconstruction. -> Fitted curve and charge id.
+
+- Discuss the a new release. 
+
+Cmp energy dep for energy dep in plastic.
+
+- Progress of framework for multiple developers
+Later than expected, waiting.
+
+- IFIC VALENCIA
+Invide Sascha to the Friday meeting.
+
+
+Extra to do
+Look at mean energy loss in Sci and Fe, for Fe hack in geant.

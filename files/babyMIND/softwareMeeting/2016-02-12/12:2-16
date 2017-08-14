@@ -1,0 +1,45 @@
+Notes 12/2-16
+- Pre meeting
+Can change to different types of particles
+Have not tested genie simulation yet, neutrinos are out.
+Saba, Python script to do analysis.
+How qiD charge.
+
+
+- Discuss the release, limitations and status.
+Ryan & Patrik
+Release today, still mu+ and mu- difference in rec. limits for high pt, no dip since we do fitting properly 10hits. Simple estimate for 4-10 hits. above 10 helical fit. up to tracks that go through the detector.
+
+Still need to look at second lever arm.
+Saba, start looking at second lever arm.
+Need to work to rename root tree.
+
+- Progress of framework for multiple developers
+Patrik updated, glasgow uni jenkins and redmine
+Now to get github, email ryan to participate (push)
+Can be downloaded publicaly from github.
+
+- Discuss this weeks update meeting.
+Ryan & Patrik
+Proposal:
+On the basis on his slide 3, 
+If geometry is only used in geant, probably not a big change to add GDML as geometry handling.
+We can not acces their code, want some parts, we can manage the merge and manage the code. Need discussion with INR.
+They have data handeling, we do not. Do we want a MIDAS based system?
+We would like to use GDML for geometry.
+Python wraper, want something similar.
+
+How to merge, seems to have to take parts from each of the different software packages. 
+How do we pass events?
+Event formats
+
+Etam Suggest, we handle setup of software, share link with Sascha. Ask for him to give us software suite and we put it on github.
+All usage is done from glasgow repo.
+Etam will send first email.
+Forward my notes.
+
+By next meeting, hopefuly have Sascha onbord this meeting.
+Until Wednessday forward email to Sascha with a doodle with proposal 
+Etam will handle communication.
+
+Patrik will update on software status and framework.

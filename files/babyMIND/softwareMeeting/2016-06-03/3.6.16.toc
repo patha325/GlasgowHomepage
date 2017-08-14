@@ -1,0 +1,6 @@
+\select@language {english}
+\contentsline {part}{babyMIND software meeting}{1}
+\contentsline {xpart}{babyMIND software meeting}{1}
+\contentsline {section}{\numberline {1}DAQ}{1}
+\contentsline {section}{\numberline {2}Test beam simulations}{1}
+\contentsline {section}{\numberline {3}Next meeting}{2}

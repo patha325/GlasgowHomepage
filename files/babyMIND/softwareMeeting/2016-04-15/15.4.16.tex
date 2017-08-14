@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{minutes}
+
+
+\minutesstyle{
+columns = {1},
+header =  {list}, %or {table},
+vote = {list}, %or {table},
+contents = {true}, %or {false}
+}
+
+\title{Collection of minutes}
+\author{\LaTeXe}
+
+\begin{document}
+
+\begin{Minutes}{babyMIND software meeting}
+%%\subtitle{}
+%%\moderation{}
+\minutetaker{Sven-Patrik Hallsj\"o}
+
+\participant{Etam Messomo, Saba Parsa, Ryan Bayes, Tatiana Ovsiannikova. }
+%\missing[with excuse]{no excuse}
+%%\missingExcused{}
+%%\missingNoExcuse{}
+%\guest{}
+\minutesdate{April 15, 2016}
+%%\starttime{}
+%%\endtime{}
+\location{Skype}
+%%\cc{}
+\maketitle
+
+\topic{Schedule for collaboration meeting}
+Each of the simulation will give a talk. Perhaps even two talks, one with the framework and one of the results.
+
+\topic{Introducing a pickup coil}
+Etam Messomo explains that plans existed, but density of the coil was assumed to be very dense.
+There is an advantage of design that allows this to be done.
+Question to magnet guys can we do this for every plane? A subset motivation for field uniformity
+
+\topic{Progress of framework for multiple developers}
+
+Sven-Patrik Hallsj\"o, finally have a gitlab working, as of now only locally accessible.
+
+\topic{Next meeting}
+Friday the 22/4-16 at 10 am BST via Skype.
+
+\end{Minutes}
+
+\end{document}

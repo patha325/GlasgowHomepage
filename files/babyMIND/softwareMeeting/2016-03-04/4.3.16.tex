@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{minutes}
+
+
+\minutesstyle{
+columns = {1},
+header =  {list}, %or {table},
+vote = {list}, %or {table},
+contents = {true}, %or {false}
+}
+
+\title{Collection of minutes}
+\author{\LaTeXe}
+
+\begin{document}
+
+\begin{Minutes}{babyMIND software meeting}
+%%\subtitle{}
+%%\moderation{}
+\minutetaker{Sven-Patrik Hallsj\"o}
+\participant{Ryan Bayes, Etam Messomo, Saba Parsa.}
+%\missing[with excuse]{no excuse}
+%%\missingExcused{}
+%%\missingNoExcuse{}
+%\guest{}
+\minutesdate{March 4, 2016}
+%%\starttime{}
+%%\endtime{}
+\location{Skype}
+%%\cc{}
+\maketitle
+
+\topic{Discuss the current status of the software, continuing the discussion from the general meeting on Wednesday}%<-- insert title of topic
+Sven-Patrik Hallsj\"o  informed that decay in orbit explains the difference which is not explained by mu- capture.
+It would be interesting to compare simulation with real data.
+
+Is there a difference between different physics libraries?
+Would it be possible to compare with fluka simulations?
+
+
+\task{Sven-Patrik Hallsj\"o}{Check mu- capture cross-sections in literature and compare with geant.}
+
+\topic{Progress of framework for multiple developers}
+Sven-Patrik Hallsj\"o informed that Glasgow University is working on creating a framework preliminarily using Jenkins and redmine to simplify development using multiple developers. 
+
+\topic{Next meeting}
+Friday the 11/3-16 at 10 am GMT via Skype.
+
+\end{Minutes}
+
+\end{document}

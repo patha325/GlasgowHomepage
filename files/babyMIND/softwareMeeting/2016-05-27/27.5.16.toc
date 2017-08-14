@@ -1,0 +1,7 @@
+\select@language {english}
+\contentsline {part}{babyMIND software meeting}{1}
+\contentsline {xpart}{babyMIND software meeting}{1}
+\contentsline {section}{\numberline {1}Clashing T2K meeting}{1}
+\contentsline {section}{\numberline {2}Current progress}{1}
+\contentsline {section}{\numberline {3}T2K code}{1}
+\contentsline {section}{\numberline {4}Next meeting}{2}

@@ -1,0 +1,35 @@
+Meeting notes 11/3 -16
+
+- Discuss the digitisation and electronics.
+Patrik mentioned that the saroman simulation now only uses one sppm, he saw that in one meeting note there was noted that 2 sppm are used. Is there a general document (being updated), that contains the current information about the detector? 
+
+Etam wondering how muon and electron are distinguished in the digitization. 
+Ryan:
+Not cheating to use the particle ID information from the simulation. Can also use the timing information. Just needs to be used in the digitization. 
+
+We need to use the timing information to distinguish between muon and electron in the digitization. 
+
+Use edms for documents.
+
+- Discuss the use of timing to differentiate between on-time and off-time hits.
+Etam mentioning his email.
+
+Patrik mentioning that this should be possible to fix, this time is not yet used.
+
+- Discuss different physics packages.
+Patrik: What should really be used?
+Etam: Not much difference between packages, look at timing information first.
+
+Ryan: We know people that have worked on this before, would be good to ask/consult. 
+
+Tie in real physics data with the models that are used in Geant.
+
+- Progress of framework for multiple developers
+Progress next week.
+
+- Current progress
+Problem with recpack, fitting not working with mixing regions, even when fitting only 2 hits are fitted. The seed is better than the final results since recpack is failing.
+
+- Merging software
+Tatiana: Moving software to git, not sure when this will be done. 
+Etam: Glasgow is setting up a private repository which will hold both codes.
